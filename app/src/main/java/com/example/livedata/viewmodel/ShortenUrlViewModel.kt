@@ -1,5 +1,9 @@
 package com.example.livedata.viewmodel
 
-class ShortenUrlViewModel(private val ) : DisposableViewModel() {
+import com.example.livedata.model.Repository
+
+class ShortenUrlViewModel(private val repository: Repository) : DisposableViewModel() {
+
+
 
 }
